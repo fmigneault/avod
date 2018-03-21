@@ -48,6 +48,7 @@ The box_4c format is the following
 import numpy as np
 import tensorflow as tf
 
+import os, sys
 from wavedata.tools.obj_detection import obj_utils
 
 

@@ -1,5 +1,14 @@
 import os
 
+import sys
+cur_dir = os.path.dirname(__file__)
+avod_dir = os.path.abspath(os.path.join(cur_dir, '../..'))
+sys.path.append(avod_dir)
+#sys.path.append(os.path.abspath(os.path.join(avod_dir, 'avod')))
+sys.path.append(os.path.abspath(os.path.join(avod_dir, 'wavedata')))
+#sys.path.append(os.path.abspath(os.path.join(avod_dir, 'wavedata/wavedata')))
+print(sys.path)
+
 import numpy as np
 
 import avod
